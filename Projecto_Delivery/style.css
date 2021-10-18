@@ -1,0 +1,2080 @@
+body, ul, li, p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+  margin-right:40px;
+}
+.form3 i{
+  margin-right: 40px;
+}
+.form3-input{
+  margin-right: 40px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.fotologo a img{
+  width: 60%; 
+  margin-left: 30px;
+}
+.loginimag li a{
+  margin-right:20px;
+  font-size: 17px;
+}
+.informarcao{
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 1px;
+}
+.loginimag{
+  text-decoration: none; 
+  color:black
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #979494;
+  width: 100%;
+  height: 80px;
+}
+.colunas{
+  background: #a8a3a3;
+  width: 100%;
+  height: 500px;
+}
+.duascolunas{
+  background:white;
+  width: 100%;
+  height: 300px;
+}
+.redesocias li img{
+  width: 50px;
+  margin-top: 5.5px;
+}
+.redesocias{
+  
+  background: #6c6a6a;
+  width: 100%;
+  height: 60px;
+}
+.links{
+  background: #969494;
+  width: 100%;
+  height: 175px;
+}
+.footer{
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+}
+.caixaesquerda{
+  background:#a8a3a3;
+  width: 740px;
+  float: left;
+  height: 263px;
+  margin-top: 20px;
+}
+.caixadireita{
+  background:#a8a3a3;
+  width: 740px;
+  float: right;
+  height: 263px;
+  margin-top: 20px;
+}
+.loginimag img{
+  max-width: 50px;
+  max-height: 30px;
+}
+.carrinho img{
+  max-height:90px;
+  max-width: 60px;
+  margin-right: 18px;
+}
+.carrinho{
+  padding: 0px;  
+}
+.menu input{
+  width: 600px;
+}
+/*-----------------------------------------localização----------------------------------*/
+
+.Localizacao{
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+
+.imagem_loca{
+  margin-left: 80px;
+}
+.imagem{
+  float: left;
+  margin-right: 5px;
+  width: 20px;
+  margin-top: 10px ;
+}
+.infor ul li a{
+  width: 300px;
+  font-size: 15px;
+  line-height: 1px;
+}
+
+
+
+/* --------------------------------------------pesquisar --------------------------------*/
+.menu .form3 input{
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline:none ;
+  border-color: white;
+}
+.form3 {
+  position: relative
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+.form3-input {
+  height: 55px;
+  text-indent: 36px;
+  
+}
+.form3-input:focus {
+  box-shadow: none;
+  border: none
+}
+/******************----------------------****navbar elements*********------------------------------***********/
+.links a:hover{
+  color: black;
+  transition: color 300ms ease-out;
+}
+.link1{
+  line-height: 1.7rem;
+  margin-left: -100px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link2{
+  float: right;
+  padding-left: 250px;
+  line-height: 1.7rem;
+  font-size: 15px;
+}
+
+.link3{
+  float: right;
+  line-height: 1.7rem;
+  margin-left: 250px;
+  font-size: 15px;
+}
+
+.loginimag a:hover {
+  color: black;
+  transition: color 300ms ease-out;
+}
+.float-right{
+  float: right;
+}
+
+.clearfix{
+  display:inline-flex;
+  clear:both;
+}
+
+.font-size{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.padding-left{
+  padding-left: 250px;
+}
+
+.line-height{
+  line-height: 1.7rem;
+}
+
+.navbar{
+  margin-left: 350px ;
+}
+
+.margin-left{
+  margin-left: -200px;
+}
+
+.margin-right{
+  margin-left: 250px;
+}
+
+.text-decoration{
+  text-decoration: none;
+}
+
+.float-end{
+  float: right;   
+}
+
+.redesociais img{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.logos{
+  margin-left: 300px;
+  padding-top: 5px;
+  height: 55px;
+}
+
+.btn {
+  background-color: whitesmoke;
+  border-radius: 50px !important;
+  padding: 12px 16px;
+  font-size: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(128, 132, 138);
+}
+
+.height{
+  height: 30vh;
+}
+
+/* Formatação de ----------------------------------------menu*-----------------------------------------------------------------*/
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  font-size: 13px;
+  
+  
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+ 
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  border-color:black;
+  border-bottom-width:0;
+  border-top-width:  2.5px;
+  border-right-width: 0;
+  border-left-width: 0;
+  display: block;
+  border-style: solid;
+  height: 140px;
+  width: 130px;
+  line-height: 25px;
+  
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+.espacoMenu li a{
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  letter-spacing:-1px;
+  word-spacing: -0px; 
+  margin-right: 40px;
+  font-weight: bolder;
+}
+.informa{
+  text-align: center; margin-bottom: 22px;
+  width: 100%;
+  height: 30px;
+  background-color:white;
+}
+.informaMenu li{
+  display: inline-block;
+}
+.informaMenu a {
+  color:#000000;
+  text-decoration: none;
+}
+.informaMenu a:hover {
+  color: black;
+  text-decoration: none;
+}
+.left-pan {
+  padding-left: 7px
+}
+.left-pan i {
+  padding-left: 10px
+}
+.menu{
+  margin-right: 20px;
+}
+.divisor{
+  width: 2px;
+  background: rgb(128, 132, 138);
+  margin: 0px 30px;
+}
+
+
+.img{
+  position: absolute;
+  right: 20px; 
+  margin-top: -22px;
+  margin-right: 10px;
+}
+
+/*********** CSS da responsividade - Projeto Delivery ***********************************/
+
+/********* @media min-width: 320px
+*********/
+@media (min-width: 320px){
+
+
+   
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 30%;
+  margin-left: 5px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: 127px;
+    width: 293px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 131px;
+  left: -108px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+  height: 25px;
+  max-width: 25px;
+  margin-right: 5px;
+}
+
+.loginimag li a {
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -54px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 23px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 55px;
+  margin-left: -30px;
+  width: 100%;
+  height: 162px;
+  background: white;
+  text-align: center;
+  /* font-size: 2px; */
+}
+
+element.style {
+  margin-left: 31px;
+}
+
+element.style {
+  margin-left: 30px;
+}
+
+.imagem_loca {
+  margin-left: 40px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+  margin-left: -12px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 108%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+  margin-left: -12px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 108%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+    margin-right: -12px;
+}
+
+.redesocias {
+  background: #969494;
+  width: 100%;
+  height: 30px;
+  margin-top: 9px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 321px;
+  margin-top: -78px;
+  margin-left: -12px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: -144px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: 1px;
+  margin-top: -107px;
+  margin-right: 12px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 12px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 10px;
+  color: black;
+}
+
+}
+
+/********* @media min-width: 375px
+*********/
+
+@media (min-width: 375px){
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 32%;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: 127px;
+    width: 332px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 128px;
+    left: -107px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+    height: 31px;
+    max-width: 65px;
+    margin-right: 8px;
+
+}
+
+.loginimag li a {
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -54px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 23px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 48px;
+  margin-left: -13px;
+  width: 100%;
+  height: 140px;
+  background: white;
+  text-align: center;
+  /* font-size: 2px; */
+}
+
+element.style {
+  margin-left: 31px;
+}
+
+element.style {
+  margin-left: 30px;
+}
+
+.imagem_loca {
+  margin-left: 40px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+  margin-left: -12px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 108%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+  margin-left: -12px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 108%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+    margin-right: -12px;
+}
+
+.redesocias {
+  background: #969494;
+  width: 100%;
+  height: 30px;
+  margin-top: 9px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 321px;
+  margin-top: -78px;
+  margin-left: -12px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: -144px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: 1px;
+  margin-top: -107px;
+  margin-right: 12px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 12px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 10px;
+  color: black;
+}
+
+
+}
+
+/********* @media min-width: 425px
+*********/
+@media (min-width: 425px){
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 33%;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: 127px;
+    width: 368px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 128px;
+    left: -107px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+    height: 31px;
+    max-width: 65px;
+    margin-right: 8px;
+
+}
+
+.loginimag li a {
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -54px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 23px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 51px;
+  margin-left: -18px;
+  width: 100%;
+  height: 124px;
+  background: white;
+  text-align: center;
+}
+
+element.style {
+  margin-left: -167px;
+}
+
+element.style {
+  margin-left: -170px;
+}
+
+element.style {
+  margin-left: 29px;
+}
+
+element.style {
+  margin-left: -88px;
+}
+
+
+.imagem_loca {
+  margin-left: 40px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+  margin-left: -12px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 108%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+  margin-left: -12px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 108%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+    margin-right: -22px;
+}
+
+.redesocias {
+  background: #969494;
+  width: 100%;
+  height: 30px;
+  margin-top: 9px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 321px;
+  margin-top: -78px;
+  margin-left: -12px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: -144px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: 1px;
+  margin-top: -107px;
+  margin-right: 12px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 12px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 10px;
+  color: black;
+}
+
+}
+
+/********* @media min-width: 768px
+*********/
+@media (min-width: 768px){
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 33%;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: -2px;
+    width: 368px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 5px;
+    left: -107px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+    height: 31px;
+    max-width: 65px;
+    margin-right: 8px;
+
+}
+
+.loginimag li a {
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -164px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 23px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 24px;
+  margin-left: -51px;
+  width: 100%;
+  height: 120px;
+  background: white;
+  text-align: center;
+  /* font-size: 2px; */
+}
+
+element.style {
+  margin-left: -167px;
+}
+
+element.style {
+  margin-left: -170px;
+}
+
+element.style {
+  margin-left: 29px;
+}
+
+element.style {
+  margin-left: -88px;
+}
+
+
+.imagem_loca {
+  margin-left: 60px;
+}
+
+element.style {
+  margin-left: -484px;
+}
+
+element.style {
+  margin-left: -488px;
+}
+
+element.style {
+  margin-left: -284px;
+}
+
+element.style {
+  margin-left: -410px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+  margin-left: -12px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 108%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+  margin-left: -12px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 108%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+    margin-right: -14px;
+}
+
+.redesocias {
+  background: #969494;
+  width: 100%;
+  height: 30px;
+  margin-top: 9px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 321px;
+  margin-top: -78px;
+  margin-left: -12px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: -144px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 104px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: 1px;
+  margin-top: -107px;
+  margin-right: 12px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+element.style {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 12px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 10px;
+  color: black;
+}
+
+}
+
+/********* @media min-width: 1024px
+*********/
+@media (min-width: 1024px){
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 33%;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: -2px;
+    width: 368px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 5px;
+  left: -106px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+    height: 31px;
+    max-width: 65px;
+    margin-right: 8px;
+
+}
+
+.loginimag li a {
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -164px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 23px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 12px;
+  margin-left: -51px;
+  width: 100%;
+  height: 111px;
+  background: white;
+  text-align: center;
+  /* font-size: 2px; */
+}
+
+element.style {
+  margin-left: -167px;
+}
+
+element.style {
+  margin-left: -170px;
+}
+
+element.style {
+  margin-left: 29px;
+}
+
+element.style {
+  margin-left: -88px;
+}
+
+
+.imagem_loca {
+  margin-left: 60px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 51.1%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 51.1%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+}
+
+.redesocias {
+  background: #6c6a6a;
+    width: 108%;
+    height: 30px;
+    margin-top: -134px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 151px;
+  margin-top: -156px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 148px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: 186px;
+  margin-top: -89px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 690px;
+  margin-top: -75px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: -6px;
+  margin-top: -32px;
+  margin-right: 12px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 14px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 13px;
+  font-size: 10px;
+  color: black;
+}
+
+}
+
+/********* @media min-width: 1440px
+*********/
+@media (min-width: 1440px){
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 51%;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: -2px;
+    width: 488px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 5px;
+  left: -106px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+    height: 51px;
+    max-width: 65px;
+    margin-right: 8px;
+
+}
+
+.loginimag li a {
+  margin-right: 408px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -164px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 23px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 13px;
+  margin-left: -49px;
+  width: 100%;
+  height: 109px;
+  background: white;
+  text-align: center;
+  /* font-size: 2px; */
+}
+
+element.style {
+  margin-left: -167px;
+}
+
+element.style {
+  margin-left: -170px;
+}
+
+element.style {
+  margin-left: 29px;
+}
+
+element.style {
+  margin-left: -88px;
+}
+
+
+.imagem_loca {
+  margin-left: 60px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 51.1%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 51.1%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+}
+
+.redesocias {
+  background: #6c6a6a;
+    width: 108%;
+    height: 30px;
+    margin-top: -134px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 151px;
+  margin-top: -156px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 148px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: 186px;
+  margin-top: -89px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 690px;
+  margin-top: -75px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: -6px;
+  margin-top: -32px;
+  margin-right: 12px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 14px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 13px;
+  font-size: 10px;
+  color: black;
+}
+}
+
+/********* @media min-width: 2560px
+*********/
+@media (min-width: 2560px){
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #979494;
+    width: 100%;
+    height: 80px;
+}
+
+.fotologo a img {
+  width: 90%;
+  margin-left: 23px;
+  margin-top: -2px;
+}
+
+.menu .form3 input {
+  border: solid;
+  background-color: #979494;
+  border-style: solid;
+  border-bottom-width: 1.50px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  outline: none;
+  border-color: white;
+  margin-top: -2px;
+    width: 824px;
+    border-radius: 10px;
+    margin-left: -186px;
+}
+
+.menu input {
+  width: 172px;
+  margin-left: -127px;
+}
+
+.form3-input {
+  height: 28px;
+  text-indent: 36px;
+  margin-top: 17px;
+}
+
+.form3-input {
+  margin-right: -50px;
+}
+
+.form3 .fa-search {
+  position: absolute;
+  top: 5px;
+  left: -106px;
+  color: white;
+}
+
+.form3 i {
+  margin-left: -70px;
+}
+
+  .carrinho img {
+    height: 61px;
+    max-width: 65px;
+    margin-right: 23px;
+
+}
+
+.loginimag li a {
+  margin-right: 408px;
+  font-size: 11px;
+}
+
+.loginimag {
+  text-decoration: none;
+  color: black;
+  margin-right: -164px;
+}
+
+.loginimag img {
+  max-width: 50px;
+  max-height: 33px;
+  font-size: 12px;
+}
+
+.Localizacao {
+  margin-top: 17px;
+    margin-left: -49px;
+    width: 100%;
+    height: 116px;
+    background: white;
+    text-align: center;
+  /* font-size: 2px; */
+}
+
+element.style {
+  margin-left: -167px;
+}
+
+element.style {
+  margin-left: -170px;
+}
+
+element.style {
+  margin-left: 29px;
+}
+
+element.style {
+  margin-left: -88px;
+}
+
+
+.imagem_loca {
+  margin-left: 60px;
+}
+
+.informa {
+  text-align: center;
+  margin-bottom: 22px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+.colunas {
+  background: #a8a3a3;
+  width: 108%;
+  height: 200px;
+}
+
+.caixaesquerda {
+  background: #a8a3a3;
+  width: 51%;
+  float: left;
+  height: 100px;
+  margin-top: 7px;
+}
+
+  .caixadireita {
+    background: #a8a3a3;
+    width: 51%;
+    float: right;
+    height: 100px;
+    margin-top: 7px;
+}
+
+.redesocias {
+  background: #6c6a6a;
+    width: 108%;
+    height: 30px;
+    margin-top: -134px;
+}
+
+.redesocias li img {
+  width: 20px;
+  height: 20px;
+  margin-top: -1.5px;
+}
+
+.links {
+  background: #969494;
+  width: 108%;
+  height: 321px;
+  margin-top: -163px;
+  padding-top: 10px;
+}
+
+.link1 {
+  line-height: 0rem;
+  margin-left: 148px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+  line-height: 0rem;
+  margin-left: 186px;
+  margin-top: -89px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link3 {
+  line-height: 0rem;
+  margin-left: 690px;
+  margin-top: -75px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -88px;
+  line-height: 2rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  margin-top: -1px;
+  margin-left: -104px;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #969494;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  right: -6px;
+  margin-top: -32px;
+  margin-right: 12px;
+}
+
+.btn {
+  background-color: whitesmoke;
+    border-radius: 14px !important;
+    padding: 6px 9px;
+    font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 13px;
+  font-size: 10px;
+  color: black;
+}
+
+
+}
+
